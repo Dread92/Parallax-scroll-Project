@@ -29,9 +29,24 @@
         <a href="#" id="btn">Explore</a>
         <img src="/assets/mountains_front.png" id="mountains_front">
     </section>
-    <div class="sec">
+    <div class="sec" id="sec">
         <h2>Parallax scrolling effect</h2>
-        <p>Lorem ipsum dolor sit amet. Sit aliquid obcaecati eum odit officiis non autem iure et soluta reprehenderit qui voluptatem quam non magni sequi qui omnis nostrum. Ut nobis necessitatibus eos fugit officia et perspiciatis voluptate est expedita consectetur ad voluptatem facilis.Sed velit possimus vel debitis nemo qui esse Quis ut beatae internos? Vel minima Quis sit saepe quod ab quod quia! Non soluta aspernatur non praesentium molestiae vel repellendus perferendis est dolore quod eos aliquam laborum et dolorem laboriosam.</p>
+        <p>Lorem ipsum dolor sit amet. Sit aliquid obcaecati eum odit officiis non autem iure et soluta reprehenderit qui voluptatem quam non magni sequi qui omnis nostrum. Ut nobis necessitatibus eos fugit officia et perspiciatis voluptate est expedita consectetur ad voluptatem facilis.Sed velit possimus vel debitis nemo qui esse Quis ut beatae internos?<br><br> Vel minima Quis sit saepe quod ab quod quia! Non soluta aspernatur non praesentium molestiae vel repellendus perferendis est dolore quod eos aliquam laborum et dolorem laboriosam.Lorem ipsum dolor sit amet. Sit aliquid obcaecati eum odit officiis non autem iure et soluta reprehenderit qui voluptatem quam non magni sequi qui omnis nostrum. Ut nobis necessitatibus eos fugit officia et perspiciatis voluptate est expedita consectetur ad voluptatem facilis.Sed velit possimus vel debitis nemo qui esse Quis ut beatae internos? Vel minima Quis sit saepe quod ab quod quia! Non soluta aspernatur non praesentium molestiae vel repellendus perferendis est dolore quod eos aliquam laborum et dolorem laboriosam.<br>Lorem ipsum dolor sit amet. Sit aliquid obcaecati eum odit officiis non autem iure et soluta reprehenderit qui voluptatem quam non magni sequi qui omnis nostrum. Ut nobis necessitatibus eos fugit officia et perspiciatis voluptate est expedita consectetur ad voluptatem facilis.Sed velit possimus vel debitis nemo qui esse Quis ut beatae internos?<br><br> Vel minima Quis sit saepe quod ab quod quia! Non soluta aspernatur non praesentium molestiae vel repellendus perferendis est dolore quod eos aliquam laborum et dolorem laboriosam.Lorem ipsum dolor sit amet. Sit aliquid obcaecati eum odit officiis non autem iure et soluta reprehenderit qui voluptatem quam non magni sequi qui omnis nostrum. Ut nobis necessitatibus eos fugit officia et perspiciatis voluptate est expedita consectetur ad voluptatem facilis.Sed velit possimus vel debitis nemo qui esse Quis ut beatae internos? Vel minima Quis sit saepe quod ab quod quia! Non soluta aspernatur non praesentium molestiae vel repellendus perferendis est dolore quod eos aliquam laborum et dolorem laboriosam.
+</p>
     </div>
+
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+
+        window.addEventListener('scroll', function(){
+            let value=window.scrollY; 
+            stars.style.left=value + 'px';
+        })
+    </script>
 </body>
 </html>

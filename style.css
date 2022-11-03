@@ -7,12 +7,17 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    
+ 
+  
 }
 
 body{
     min-height: 100vh;
     background: linear-gradient(#2b1055, #7597de);
     overflow-x:hidden;
+    
+    
 }
 
 header{
@@ -25,6 +30,7 @@ header{
     justify-content:space-between ;
     align-items: center;
     z-index:1000;
+    
 }
 @media screen and (max-width: 700px){
     header{
@@ -117,9 +123,13 @@ section img{
     object-fit: cover;
     pointer-events: none;
 }
+
+  
+
+
 section img#moon{
     mix-blend-mode:screen ;
-    margin-top:30px;
+    
 }
 
 section img#mountains_front{
@@ -133,7 +143,7 @@ section img#mountains_front{
     font-size: 7.5vw;
     z-index: 9;
     transform: translateY(100px);
-    right:-350px;
+    right:-400px;
     overflow-x: hidden;
 }
 

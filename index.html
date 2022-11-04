@@ -36,25 +36,8 @@
             Vel minima Quis sit saepe quod ab quod quia! Non soluta aspernatur non praesentium molestiae vel repellendus perferendis est dolore quod eos aliquam laborum et dolorem laboriosam.Lorem ipsum dolor sit amet. Sit aliquid obcaecati eum odit officiis non autem iure et soluta reprehenderit qui voluptatem quam non magni sequi qui omnis nostrum. Ut nobis necessitatibus eos fugit officia et perspiciatis voluptate est expedita consectetur ad voluptatem facilis.Sed velit possimus vel debitis nemo qui esse Quis ut beatae internos?</p>
     </div>
 
-    <script>
-        let stars = document.getElementById('stars');
-        let moon = document.getElementById('moon');
-        let mountains_behind = document.getElementById('mountains_behind');
-        let text = document.getElementById('text');
-        let btn = document.getElementById('btn');
-        let mountains_front = document.getElementById('mountains_front');
-
-        window.addEventListener('scroll', function(){
-            let value=window.scrollY; 
-            stars.style.left=value * 0.25 + 'px';
-            moon.style.top=value * 1.05 + 'px';
-            mountains_behind.style.top=value * 0.5 + 'px';
-            mountains_front.style.top=value * 0 + 'px';
-            text.style.marginRight=value * 4 + 'px';
-            btn.style.marginTop=value * 1.5 + 'px';
-            
-           
-        })
-    </script>
+   
+    <script src="script.js"></script> 
+    
 </body>
 </html>

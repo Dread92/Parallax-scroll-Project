@@ -134,7 +134,12 @@ section img{
     object-fit: cover;
     pointer-events: none;
 }
-
+@media screen and (min-width: 1800px){
+    #moon {
+        height:auto;
+        
+    }
+}
   
 
 
